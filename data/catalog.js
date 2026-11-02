@@ -16,7 +16,7 @@
 window.BOUCHRA_CATALOG = {
   "settings": {
     "brandName": "BOUCHRA",
-    "whatsappNumber": "",
+    "whatsappNumber": "212690099637",
     "siteUrl": "",
     "currency": {
       "en": "MAD",

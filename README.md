@@ -26,7 +26,7 @@ English, French and Arabic (right-to-left). Visitors switch with the EN / FR / �
 
 All products and settings are in **one file: `data/catalog.js`**. No product is hard-coded in the pages.
 
-- `settings.whatsappNumber`: the WhatsApp business number, in international format (e.g. `2126XXXXXXXX`). **Still empty, waiting for the real number.** Until it is set, WhatsApp asks the customer to choose a contact.
+- `settings.whatsappNumber`: the WhatsApp business number, in international format currently `212690099637` (0690099637). The two “Commander sur WhatsApp” buttons on the homepage use a fixed link to this number written directly in `index.html`; update it there too if the number changes.
 - `settings.siteUrl`: optional public address used in the product links inside messages.
 - `settings.homepage`: announcement bar, hero and WhatsApp promotion texts.
 - `products`, `categories`, `sizeGuide`.

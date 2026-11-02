@@ -9,10 +9,6 @@
     if (value) el.textContent = value;
   });
 
-  document.querySelectorAll('[data-wa-general]').forEach(function (a) {
-    a.href = B.whatsapp.link(B.whatsapp.generalMessage());
-  });
-
   var cats = document.querySelector('[data-categories]');
   cats.innerHTML = B.catalog.categories.map(function (c) {
     return '' +

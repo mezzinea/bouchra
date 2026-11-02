@@ -74,7 +74,7 @@ window.BOUCHRA_CATALOG = {
         "fr": "Abayas contemporaines",
         "ar": "عبايات عصرية"
       },
-      "image": "img/products/brown-abaya-1.jpg"
+      "image": "img/products/bouchra_01_midnight_navy.jpg"
     },
     {
       "id": "islamic-dresses",
@@ -83,7 +83,7 @@ window.BOUCHRA_CATALOG = {
         "fr": "Robes islamiques",
         "ar": "فساتين إسلامية"
       },
-      "image": "img/products/ivory-dress-1.jpg"
+      "image": "img/products/bouchra_02_champagne_beige.jpg"
     },
     {
       "id": "everyday",
@@ -92,7 +92,7 @@ window.BOUCHRA_CATALOG = {
         "fr": "Tenues du quotidien",
         "ar": "أزياء يومية محتشمة"
       },
-      "image": "img/products/beige-abaya-2.jpg"
+      "image": "img/products/bouchra_06_blush_pink.jpg"
     },
     {
       "id": "occasion",
@@ -101,7 +101,7 @@ window.BOUCHRA_CATALOG = {
         "fr": "Robes de cérémonie",
         "ar": "فساتين المناسبات"
       },
-      "image": "img/products/beige-abaya-1.jpg"
+      "image": "img/products/bouchra_04_dusty_rose.jpg"
     }
   ],
   "sizeGuide": {
@@ -214,10 +214,9 @@ window.BOUCHRA_CATALOG = {
             "fr": "Sable",
             "ar": "رملي"
           },
-          "hex": "#D4B89C",
+          "hex": "#E0C0AB",
           "images": [
-            "img/products/beige-abaya-1.jpg",
-            "img/products/beige-abaya-2.jpg"
+            "img/products/bouchra_02_champagne_beige.jpg"
           ]
         },
         {
@@ -226,10 +225,9 @@ window.BOUCHRA_CATALOG = {
             "fr": "Noir",
             "ar": "أسود"
           },
-          "hex": "#1D1B1E",
+          "hex": "#2B2B2B",
           "images": [
-            "img/products/black-abaya-1.jpg",
-            "img/products/black-abaya-2.jpg"
+            "img/products/bouchra_03_midnight_black.jpg"
           ]
         },
         {
@@ -238,10 +236,9 @@ window.BOUCHRA_CATALOG = {
             "fr": "Bleu marine",
             "ar": "كحلي"
           },
-          "hex": "#1E2A47",
+          "hex": "#363D62",
           "images": [
-            "img/products/navy-abaya-1.jpg",
-            "img/products/navy-abaya-2.jpg"
+            "img/products/bouchra_01_midnight_navy.jpg"
           ]
         },
         {
@@ -250,10 +247,9 @@ window.BOUCHRA_CATALOG = {
             "fr": "Vieux rose",
             "ar": "وردي عتيق"
           },
-          "hex": "#C79C9C",
+          "hex": "#B06A71",
           "images": [
-            "img/products/dusty-rose-abaya-1.jpg",
-            "img/products/dusty-rose-abaya-2.jpg"
+            "img/products/bouchra_04_dusty_rose.jpg"
           ]
         },
         {
@@ -262,10 +258,9 @@ window.BOUCHRA_CATALOG = {
             "fr": "Émeraude",
             "ar": "زمردي"
           },
-          "hex": "#24584B",
+          "hex": "#528674",
           "images": [
-            "img/products/emerald-abaya-1.jpg",
-            "img/products/emerald-abaya-2.jpg"
+            "img/products/bouchra_07_emerald_green.jpg"
           ]
         },
         {
@@ -274,16 +269,14 @@ window.BOUCHRA_CATALOG = {
             "fr": "Lilas",
             "ar": "ليلكي"
           },
-          "hex": "#A08FB0",
+          "hex": "#C3B3D1",
           "images": [
-            "img/products/lilac-abaya-1.jpg",
-            "img/products/lilac-abaya-2.jpg"
+            "img/products/bouchra_08_lilac.jpg"
           ]
         }
       ],
       "images": [
-        "img/products/beige-abaya-1.jpg",
-        "img/products/beige-abaya-2.jpg"
+        "img/products/bouchra_02_champagne_beige.jpg"
       ],
       "availability": "in-stock",
       "newArrival": true,
@@ -324,11 +317,14 @@ window.BOUCHRA_CATALOG = {
       "colours": [
         {
           "name": {
-            "en": "Cocoa",
-            "fr": "Cacao",
-            "ar": "كاكاو"
+            "en": "Navy",
+            "fr": "Bleu marine",
+            "ar": "كحلي"
           },
-          "hex": "#5B4334"
+          "hex": "#363D62",
+          "images": [
+            "img/products/bouchra_01_midnight_navy.jpg"
+          ]
         },
         {
           "name": {
@@ -336,12 +332,14 @@ window.BOUCHRA_CATALOG = {
             "fr": "Sable",
             "ar": "رملي"
           },
-          "hex": "#D4B89C"
+          "hex": "#E0C0AB",
+          "images": [
+            "img/products/bouchra_02_champagne_beige.jpg"
+          ]
         }
       ],
       "images": [
-        "img/products/brown-abaya-1.jpg",
-        "img/products/beige-abaya-2.jpg"
+        "img/products/bouchra_01_midnight_navy.jpg"
       ],
       "availability": "low-stock",
       "newArrival": false,
@@ -381,11 +379,14 @@ window.BOUCHRA_CATALOG = {
       "colours": [
         {
           "name": {
-            "en": "Ivory",
-            "fr": "Ivoire",
-            "ar": "عاجي"
+            "en": "Blush Pink",
+            "fr": "Rose poudré",
+            "ar": "وردي فاتح"
           },
-          "hex": "#F3EEE6"
+          "hex": "#E4C0C4",
+          "images": [
+            "img/products/bouchra_06_blush_pink.jpg"
+          ]
         },
         {
           "name": {
@@ -393,20 +394,25 @@ window.BOUCHRA_CATALOG = {
             "fr": "Sable",
             "ar": "رملي"
           },
-          "hex": "#D4B89C"
+          "hex": "#E0C0AB",
+          "images": [
+            "img/products/bouchra_02_champagne_beige.jpg"
+          ]
         },
         {
           "name": {
-            "en": "Olive",
-            "fr": "Olive",
-            "ar": "زيتوني"
+            "en": "Powder Blue",
+            "fr": "Bleu poudré",
+            "ar": "أزرق فاتح"
           },
-          "hex": "#7A7A5A"
+          "hex": "#A4B9DA",
+          "images": [
+            "img/products/bouchra_05_powder_blue.jpg"
+          ]
         }
       ],
       "images": [
-        "img/products/ivory-dress-1.jpg",
-        "img/products/beige-abaya-2.jpg"
+        "img/products/bouchra_06_blush_pink.jpg"
       ],
       "availability": "in-stock",
       "newArrival": true,
@@ -450,20 +456,25 @@ window.BOUCHRA_CATALOG = {
             "fr": "Ivoire",
             "ar": "عاجي"
           },
-          "hex": "#F3EEE6"
+          "hex": "#E0C0AB",
+          "images": [
+            "img/products/bouchra_02_champagne_beige.jpg"
+          ]
         },
         {
           "name": {
-            "en": "Terracotta",
-            "fr": "Terracotta",
-            "ar": "تيراكوتا"
+            "en": "Dusty Rose",
+            "fr": "Vieux rose",
+            "ar": "وردي غامق"
           },
-          "hex": "#B78B6A"
+          "hex": "#B06A71",
+          "images": [
+            "img/products/bouchra_04_dusty_rose.jpg"
+          ]
         }
       ],
       "images": [
-        "img/products/ivory-dress-1.jpg",
-        "img/products/beige-abaya-1.jpg"
+        "img/products/bouchra_02_champagne_beige.jpg"
       ],
       "availability": "in-stock",
       "newArrival": false,
@@ -508,10 +519,9 @@ window.BOUCHRA_CATALOG = {
             "fr": "Champagne",
             "ar": "شامبانيا"
           },
-          "hex": "#E3CFAE",
+          "hex": "#E0C0AB",
           "images": [
-            "img/products/beige-abaya-1.jpg",
-            "img/products/beige-abaya-2.jpg"
+            "img/products/bouchra_02_champagne_beige.jpg"
           ]
         },
         {
@@ -520,22 +530,20 @@ window.BOUCHRA_CATALOG = {
             "fr": "Rose nude",
             "ar": "وردي فاتح"
           },
-          "hex": "#D9B8B0",
+          "hex": "#B06A71",
           "images": [
-            "img/products/dusty-rose-abaya-1.jpg",
-            "img/products/dusty-rose-abaya-2.jpg"
+            "img/products/bouchra_04_dusty_rose.jpg"
           ]
         },
         {
           "name": {
-            "en": "Burgundy",
-            "fr": "Bordeaux",
-            "ar": "عنابي"
+            "en": "Black",
+            "fr": "Noir",
+            "ar": "أسود"
           },
-          "hex": "#6E2639",
+          "hex": "#2B2B2B",
           "images": [
-            "img/products/burgundy-abaya-1.jpg",
-            "img/products/burgundy-abaya-2.jpg"
+            "img/products/bouchra_03_midnight_black.jpg"
           ]
         },
         {
@@ -544,16 +552,14 @@ window.BOUCHRA_CATALOG = {
             "fr": "Émeraude",
             "ar": "زمردي"
           },
-          "hex": "#24584B",
+          "hex": "#528674",
           "images": [
-            "img/products/emerald-abaya-1.jpg",
-            "img/products/emerald-abaya-2.jpg"
+            "img/products/bouchra_07_emerald_green.jpg"
           ]
         }
       ],
       "images": [
-        "img/products/beige-abaya-1.jpg",
-        "img/products/beige-abaya-2.jpg"
+        "img/products/bouchra_02_champagne_beige.jpg"
       ],
       "availability": "made-to-order",
       "newArrival": true,
@@ -597,10 +603,9 @@ window.BOUCHRA_CATALOG = {
             "fr": "Sable",
             "ar": "رملي"
           },
-          "hex": "#D4B89C",
+          "hex": "#E0C0AB",
           "images": [
-            "img/products/beige-abaya-1.jpg",
-            "img/products/beige-abaya-2.jpg"
+            "img/products/bouchra_02_champagne_beige.jpg"
           ]
         },
         {
@@ -609,40 +614,36 @@ window.BOUCHRA_CATALOG = {
             "fr": "Noir",
             "ar": "أسود"
           },
-          "hex": "#1D1B1E",
+          "hex": "#2B2B2B",
           "images": [
-            "img/products/black-abaya-1.jpg",
-            "img/products/black-abaya-2.jpg"
+            "img/products/bouchra_03_midnight_black.jpg"
           ]
         },
         {
           "name": {
-            "en": "Burgundy",
-            "fr": "Bordeaux",
-            "ar": "عنابي"
+            "en": "Blush Pink",
+            "fr": "Rose poudré",
+            "ar": "وردي فاتح"
           },
-          "hex": "#6E2639",
+          "hex": "#E4C0C4",
           "images": [
-            "img/products/burgundy-abaya-1.jpg",
-            "img/products/burgundy-abaya-2.jpg"
+            "img/products/bouchra_06_blush_pink.jpg"
           ]
         },
         {
           "name": {
-            "en": "Dusty Blue",
+            "en": "Powder Blue",
             "fr": "Bleu poudré",
             "ar": "أزرق فاتح"
           },
-          "hex": "#7E95B2",
+          "hex": "#A4B9DA",
           "images": [
-            "img/products/dusty-blue-abaya-1.jpg",
-            "img/products/dusty-blue-abaya-2.jpg"
+            "img/products/bouchra_05_powder_blue.jpg"
           ]
         }
       ],
       "images": [
-        "img/products/beige-abaya-1.jpg",
-        "img/products/beige-abaya-2.jpg"
+        "img/products/bouchra_02_champagne_beige.jpg"
       ],
       "availability": "in-stock",
       "newArrival": false,
@@ -681,11 +682,14 @@ window.BOUCHRA_CATALOG = {
       "colours": [
         {
           "name": {
-            "en": "Olive",
-            "fr": "Olive",
-            "ar": "زيتوني"
+            "en": "Emerald",
+            "fr": "Émeraude",
+            "ar": "زمردي"
           },
-          "hex": "#7A7A5A"
+          "hex": "#528674",
+          "images": [
+            "img/products/bouchra_07_emerald_green.jpg"
+          ]
         },
         {
           "name": {
@@ -693,11 +697,14 @@ window.BOUCHRA_CATALOG = {
             "fr": "Sable",
             "ar": "رملي"
           },
-          "hex": "#D4B89C"
+          "hex": "#E0C0AB",
+          "images": [
+            "img/products/bouchra_02_champagne_beige.jpg"
+          ]
         }
       ],
       "images": [
-        "img/products/ivory-dress-1.jpg"
+        "img/products/bouchra_07_emerald_green.jpg"
       ],
       "availability": "out-of-stock",
       "newArrival": false,
@@ -741,10 +748,9 @@ window.BOUCHRA_CATALOG = {
             "fr": "Rose nude",
             "ar": "وردي فاتح"
           },
-          "hex": "#D9B8B0",
+          "hex": "#B06A71",
           "images": [
-            "img/products/dusty-rose-abaya-1.jpg",
-            "img/products/dusty-rose-abaya-2.jpg"
+            "img/products/bouchra_04_dusty_rose.jpg"
           ]
         },
         {
@@ -753,10 +759,9 @@ window.BOUCHRA_CATALOG = {
             "fr": "Champagne",
             "ar": "شامبانيا"
           },
-          "hex": "#E3CFAE",
+          "hex": "#E0C0AB",
           "images": [
-            "img/products/beige-abaya-1.jpg",
-            "img/products/beige-abaya-2.jpg"
+            "img/products/bouchra_02_champagne_beige.jpg"
           ]
         },
         {
@@ -765,16 +770,14 @@ window.BOUCHRA_CATALOG = {
             "fr": "Lilas",
             "ar": "ليلكي"
           },
-          "hex": "#A08FB0",
+          "hex": "#C3B3D1",
           "images": [
-            "img/products/lilac-abaya-1.jpg",
-            "img/products/lilac-abaya-2.jpg"
+            "img/products/bouchra_08_lilac.jpg"
           ]
         }
       ],
       "images": [
-        "img/products/dusty-rose-abaya-1.jpg",
-        "img/products/dusty-rose-abaya-2.jpg"
+        "img/products/bouchra_04_dusty_rose.jpg"
       ],
       "availability": "in-stock",
       "newArrival": true,

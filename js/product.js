@@ -125,7 +125,7 @@
 
   function galleryHtml() {
     return '' +
-      '<div class="gallery__thumbs" role="group" aria-label="' + esc(t('pdp.images')) + '">' +
+      '<div class="gallery__thumbs" role="group" aria-label="' + esc(t('pdp.images')) + '"' + (images.length > 1 ? '' : ' hidden') + '>' +
         images.map(function (src, i) {
           return '<button type="button" class="gallery__thumb" data-thumb="' + i + '" aria-label="' + esc(t('pdp.viewImage', { n: i + 1 })) + '"' + (i === 0 ? ' aria-current="true"' : '') + '>' +
             '<img src="' + esc(src) + '" alt=""></button>';

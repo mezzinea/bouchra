@@ -42,9 +42,9 @@ The draft is stored in the browser, so the admin page cannot change the live sit
 
 ## Photos
 
-Each colour of a product can have its own photos (`colours[].images`, or the colour's photo strip in the admin); they replace the gallery when a customer picks that colour. The abaya colour variants (`img/products/<colour>-abaya-1/2.jpg`) were digitally recoloured from the sand abaya, and model faces carry a soft white veil (70% opacity). Unedited photos are kept in `img/products/originals/`.
+Each colour of a product can have its own photos (`colours[].images`, or the colour's photo strip in the admin); they replace the gallery when a customer picks that colour. The current photos are `img/products/bouchra_01_midnight_navy.jpg` … `bouchra_08_lilac.jpg`, one per colour (navy, champagne beige, black, dusty rose, powder blue, blush pink, emerald, lilac); when a product or colour has a single photo, the gallery shows it without thumbnails. The earlier moodboard crops are kept in `img/products/originals/`.
 
-The current photos are crops of the brand moodboard and the products are **sample data**. Replace them with the real collection and high-resolution photography (ideally at least 1200 px wide, portrait 3:4).
+The products are **sample data**. Replace them with the real collection and high-resolution photography (ideally at least 1200 px wide, portrait 3:4).
 
 ## Running locally
 

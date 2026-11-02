@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>BOUCHRA Admin — Catalogue Manager</title>
+  <link rel="icon" type="image/png" href="img/bouchra_icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Tajawal:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=3">
+  <link rel="stylesheet" href="css/admin.css?v=3">
+</head>
+<body class="admin">
+  <header class="admin-top">
+    <div class="admin-top__brand">
+      <img src="img/site/icon-ivory.png" alt="" width="30">
+      <div><strong>BOUCHRA</strong><span>Catalogue manager</span></div>
+    </div>
+    <div class="admin-top__actions">
+      <span class="admin-status" data-status></span>
+      <button type="button" class="abtn abtn--ghost" data-action="preview">Preview site</button>
+      <button type="button" class="abtn abtn--light" data-action="export">Download catalog.js</button>
+    </div>
+  </header>
+
+  <nav class="admin-tabs" role="tablist" aria-label="Admin sections">
+    <button type="button" role="tab" data-tab="products" aria-selected="true">Products</button>
+    <button type="button" role="tab" data-tab="settings" aria-selected="false">WhatsApp &amp; settings</button>
+    <button type="button" role="tab" data-tab="homepage" aria-selected="false">Homepage content</button>
+    <button type="button" role="tab" data-tab="sizes" aria-selected="false">Size guide</button>
+    <button type="button" role="tab" data-tab="publish" aria-selected="false">Publish</button>
+  </nav>
+
+  <main class="admin-main" data-panel></main>
+
+  <input type="file" accept=".js,.json,application/json,text/javascript" data-import-input hidden>
+
+  <script src="data/catalog.js?v=3"></script>
+  <script src="js/admin.js?v=3"></script>
+</body>
+</html>

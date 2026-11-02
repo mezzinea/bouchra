@@ -3,7 +3,7 @@
  * Loaded in <head> so <html lang/dir> is set before the page paints.
  *
  * Language choice: ?lang= in the URL, then the visitor's saved choice,
- * then the browser language, then English.
+ * otherwise French (the default).
  */
 (function () {
   'use strict';
@@ -20,11 +20,9 @@
   function store(v) { try { localStorage.setItem(KEY, v); } catch (e) { /* ignore */ } }
 
   var param = new URLSearchParams(window.location.search).get('lang');
-  var browser = (navigator.language || 'en').slice(0, 2).toLowerCase();
   var lang = CODES.indexOf(param) > -1 ? param
     : CODES.indexOf(stored()) > -1 ? stored()
-    : CODES.indexOf(browser) > -1 ? browser
-    : 'en';
+    : 'fr';
   if (param === lang) store(lang);
 
   var meta = LANGS.filter(function (l) { return l.code === lang; })[0];
@@ -36,7 +34,7 @@
   if (lang === 'ar') {
     var link = document.createElement('link');
     link.rel = 'stylesheet';
-    link.href = 'https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600&family=Tajawal:wght@300;400;500;700&display=swap';
+    link.href = 'https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600&family=Cairo:wght@400;500;600;700&display=swap';
     document.head.appendChild(link);
   }
 

@@ -127,7 +127,7 @@ body.admin { background: #F3EEE6; font-size: 14px; }
 }
 /* The admin page is always LTR: keep the language badge on the left. */
 .loc__item input, .loc__item textarea { padding-left: 40px !important; }
-.admin [lang="ar"] { font-family: 'Tajawal', var(--sans); }
+.admin [lang="ar"] { font-family: 'Cairo', var(--sans); }
 @media (max-width: 760px) { .loc__grid { grid-template-columns: 1fr; } }
 
 .missing { color: var(--warn); font-weight: 500; }

@@ -15,12 +15,12 @@ Shared on every page: the floating WhatsApp button, **My Selection** (request li
 
 ## Languages
 
-English, French and Arabic (right-to-left). Visitors switch with the EN / FR / عربي buttons in the header (or in the mobile menu and footer); the choice is remembered. A link can force a language with `?lang=fr` or `?lang=ar`. Without a saved choice, the browser language is used, then English.
+English, French and Arabic (right-to-left). Visitors switch with the EN / FR / عربي buttons in the header (or in the mobile menu and footer); the choice is remembered. A link can force a language with `?lang=fr` or `?lang=ar`. French is the default language; a visitor's saved choice is kept on later visits.
 
 - Interface text lives in `js/i18n.js`.
 - Catalogue text (products, colours, collections, homepage, delivery info) is stored as `{ "en": …, "fr": …, "ar": … }` in `data/catalog.js`. An empty translation falls back to English; the admin flags products missing French or Arabic.
 - WhatsApp messages are written in the visitor’s language.
-- The logo sits at the start of the header: left in English/French, right in Arabic. Arabic uses Noto Naskh Arabic and Tajawal, since Playfair Display and Montserrat have no Arabic characters.
+- The logo sits at the start of the header: left in English/French, right in Arabic. Arabic uses Noto Naskh Arabic (headings) and Cairo (text), at larger sizes, since Playfair Display and Montserrat have no Arabic characters.
 
 ## Where the content lives
 

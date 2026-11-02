@@ -35,9 +35,9 @@
 /* Arabic: brand fonts have no Arabic glyphs, and letter-spacing breaks joined script. */
 html[lang="ar"] {
   --serif: 'Noto Naskh Arabic', 'Playfair Display', serif;
-  --sans: 'Tajawal', 'Montserrat', sans-serif;
+  --sans: 'Cairo', 'Montserrat', sans-serif;
 }
-html[lang="ar"] body { font-size: 16px; line-height: 1.85; }
+html[lang="ar"] body { font-size: 17px; line-height: 1.8; }
 html[lang="ar"] * { letter-spacing: 0 !important; }
 html[lang="ar"] h1, html[lang="ar"] h2, html[lang="ar"] h3 { line-height: 1.4; font-weight: 500; }
 
@@ -202,7 +202,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
   min-width: 36px; height: 32px; padding: 0 9px;
   font-size: 11px; font-weight: 600; letter-spacing: .08em; color: var(--espresso-soft);
 }
-.lang-switch button[lang="ar"] { font-family: 'Tajawal', 'Noto Naskh Arabic', sans-serif; font-size: 13px; letter-spacing: 0; }
+.lang-switch button[lang="ar"] { font-family: 'Cairo', 'Noto Naskh Arabic', sans-serif; font-size: 13.5px; letter-spacing: 0; }
 .lang-switch button:hover { color: var(--espresso); }
 .lang-switch button[aria-current="true"] { background: var(--espresso); color: var(--ivory); }
 .lang-switch--bar { margin-inline-end: 4px; }
@@ -666,3 +666,85 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .site-footer__base { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; padding-top: 20px; padding-bottom: 24px; border-top: 1px solid rgba(248, 245, 239, .14); font-size: 11.5px; letter-spacing: .12em; }
 @media (max-width: 860px) { .site-footer__grid { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 520px) { .site-footer__grid { grid-template-columns: 1fr; } .site-footer__base { padding-bottom: 96px; } }
+
+/* ---------- Arabic sizing ----------
+   The base sizes are tuned for small uppercase Latin with wide tracking.
+   Arabic has neither, so it needs noticeably larger type to read well. */
+
+html[lang="ar"] .announce { font-size: 13px; }
+html[lang="ar"] .preview-bar { font-size: 14px; }
+html[lang="ar"] .site-nav a { font-size: 15px; font-weight: 500; }
+html[lang="ar"] .selection-btn { font-size: 14px; }
+html[lang="ar"] .eyebrow { font-size: 14.5px; font-weight: 600; }
+html[lang="ar"] .btn { font-size: 15px; font-weight: 700; }
+html[lang="ar"] .btn--lg { font-size: 16px; }
+html[lang="ar"] .link-btn { font-size: 14px; }
+html[lang="ar"] .small { font-size: 14px; }
+
+html[lang="ar"] .hero__text { font-size: 19px; }
+html[lang="ar"] .hero__note { font-size: 14px; }
+html[lang="ar"] .section-head p { font-size: 17px; }
+html[lang="ar"] .section-head--row a { font-size: 14.5px; }
+html[lang="ar"] .cat-tile__label h3 { font-size: clamp(20px, 2.2vw, 26px); }
+html[lang="ar"] .cat-tile__label span { font-size: 13.5px; }
+html[lang="ar"] .step h3 { font-size: 22px; }
+html[lang="ar"] .step p,
+html[lang="ar"] .promo__perks li,
+html[lang="ar"] .values span { font-size: 16px; }
+html[lang="ar"] .promo p { font-size: 17.5px; }
+html[lang="ar"] .values strong { font-size: 16px; }
+html[lang="ar"] .story__script { font-size: 24px; }
+
+html[lang="ar"] .badge { font-size: 12px; font-weight: 700; }
+html[lang="ar"] .card__cat { font-size: 13px; }
+html[lang="ar"] .card__name { font-size: 20px; }
+html[lang="ar"] .card__price { font-size: 15.5px; font-weight: 600; }
+html[lang="ar"] .card__avail { font-size: 13px; }
+
+html[lang="ar"] .page-hero p { font-size: 17px; }
+html[lang="ar"] .chip { font-size: 14px; }
+html[lang="ar"] .toolbar__count { font-size: 14.5px; }
+html[lang="ar"] .select { font-size: 15px; }
+
+html[lang="ar"] .breadcrumb { font-size: 14px; }
+html[lang="ar"] .pdp__cat { font-size: 14px; }
+html[lang="ar"] .pdp__ref, html[lang="ar"] .status { font-size: 14px; }
+html[lang="ar"] .pdp__price { font-size: 24px; }
+html[lang="ar"] .pdp__desc { font-size: 17px; }
+html[lang="ar"] .option__label { font-size: 15px; }
+html[lang="ar"] .option__label em { font-size: 15px; }
+html[lang="ar"] .option__label .link-btn { font-size: 14px; }
+html[lang="ar"] .option__error { font-size: 14.5px; }
+html[lang="ar"] .pdp__ask { font-size: 15.5px; }
+html[lang="ar"] .pdp__how, html[lang="ar"] .notice { font-size: 15px; }
+html[lang="ar"] .accordion summary { font-size: 15.5px; }
+html[lang="ar"] .accordion details > div { font-size: 16px; }
+html[lang="ar"] .sticky-order__info p { font-size: 15px; }
+html[lang="ar"] .sticky-order__info strong { font-size: 14px; }
+html[lang="ar"] .sticky-order .btn { font-size: 14.5px; }
+
+html[lang="ar"] .drawer__head h2 { font-size: 28px; }
+html[lang="ar"] .sel-item__name { font-size: 19px; }
+html[lang="ar"] .sel-item__opts label span { font-size: 13px; }
+html[lang="ar"] .sel-item__opts select { font-size: 14.5px; }
+html[lang="ar"] .drawer__total { font-size: 16px; }
+
+html[lang="ar"] .size-table { font-size: 15px; }
+html[lang="ar"] .size-table thead th { font-size: 14px; }
+html[lang="ar"] .toast { font-size: 15px; }
+html[lang="ar"] .wa-float__tip { font-size: 14px; }
+
+html[lang="ar"] .site-footer { font-size: 15.5px; }
+html[lang="ar"] .site-footer h4 { font-size: 15px; }
+html[lang="ar"] .site-footer__base { font-size: 13.5px; }
+
+@media (max-width: 1060px) {
+  html[lang="ar"] .site-nav a { font-size: 16.5px; }
+}
+@media (max-width: 600px) {
+  html[lang="ar"] .announce { font-size: 12.5px; }
+}
+@media (max-width: 480px) {
+  html[lang="ar"] .card__name { font-size: 17.5px; }
+  html[lang="ar"] .badge { font-size: 11px; }
+}
